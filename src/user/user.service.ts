@@ -8,7 +8,7 @@ export class UserService {
     { name: 'bob', age: 18 },
   ]
 
-  findAll(): User[] {
+  public findAll(): User[] {
     return this.user
   }
 }
