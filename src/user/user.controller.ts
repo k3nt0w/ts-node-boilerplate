@@ -4,7 +4,7 @@ import { User } from './interfaces/user.interface'
 
 @Controller('user')
 export class UserController {
-  private constructor(private readonly userService: UserService) {}
+  public constructor(private readonly userService: UserService) {}
 
   @Get()
   @HttpCode(201)
